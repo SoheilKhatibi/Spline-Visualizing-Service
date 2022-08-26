@@ -25,5 +25,6 @@ python main.py
 
 
 ## Reference
-HTML page design were inspired by [this link](<https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3> "link")
-[Sample image](<./resource/image/mountain_PNG12.png> "sample image") from pngimg.com website ([link](<https://pngimg.com/image/21592> "image link"))
+-HTML page design were inspired by [this link](<https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3> "link")
+
+-[Sample image](<./resource/image/mountain_PNG12.png> "sample image") from pngimg.com website ([link](<https://pngimg.com/image/21592> "image link"))
