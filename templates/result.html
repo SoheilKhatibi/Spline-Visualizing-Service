@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <img src="{{ url_for('static',  filename=user_image) }}" alt="User Image"
+    style="display: block  ;margin-left: auto; margin-right:auto"><br><br>
+    <form action="/" style="text-align: center">
+        <input type="submit" value="try again"/>
+    </form>
+{% endblock %}
+
