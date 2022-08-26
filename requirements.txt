@@ -1,2 +1,6 @@
 flask
 # flask==2.2.2
+scipy
+# scipy==1.9.0
+matplotlib
+# matplotlib==3.5.3
