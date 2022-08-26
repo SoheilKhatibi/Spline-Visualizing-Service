@@ -3,7 +3,8 @@
 {% block content %}
     <b>{{ user_image }}</b><br><br>
     <img src="{{ url_for('static', filename=user_image) }}" alt="User Image"><br><br>
-    <form method="post" action='/tck'>
+    <form method="post" action='/infer'>
+            <input type="hidden" name="name" value={{ user_image }}/>
             <label for="T">insert T: </label>
             <input style="width: 50em;" type="text" name="T" id="T"><br><br>
             <p>example input for T:
